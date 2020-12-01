@@ -1,11 +1,14 @@
 
 # 添加
+```json
 PUT /movies/movie/1
 {
     "title": "The Godfather",
     "director": "Francis Ford Coppola",
     "year": 1972
 }
+```
+
 # 返回信息
 {
   "_index": "movies",
